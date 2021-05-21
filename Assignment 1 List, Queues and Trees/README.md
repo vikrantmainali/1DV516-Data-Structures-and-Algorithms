@@ -1,3 +1,5 @@
+**INSTRUCTIONS:**
+
 Implement an AVL tree (in MyAVL4StringsImpl.java), that contains String elements and that supports the following operations:
 
 – The constructor method of the MyAVL4StringsImpl must not receive any parameter. That is, "public MyAVL4StringsImpl(){}" if you specify it. 
