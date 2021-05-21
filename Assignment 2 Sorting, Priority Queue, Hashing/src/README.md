@@ -1,3 +1,5 @@
+**INSTRUCTIONS:**
+
 Exercise 1
 
 In this exercise you have to provide an implementation based on HashTables of the Map Abstract Data Type (synonyms of the Map ADT are the Dictionary ADT and the Associative Array ADT https://en.wikipedia.org/wiki/Associative_array). If you have never heard about Map or Dictionary ADT before, here it is a short description: A Map contains a collection of (key,value) pairs, such that each possible key appears at most once in the collection. You can think that the usual dictionaries are a map where the Key is a word and the Value is the meaning of the word. Ask me in the next session (or write a post in mymoodle) if you have doubts about this ADT.
@@ -18,6 +20,7 @@ You can get full inspiration from the code in the reference book. All the operat
 
 
 Exercise 2
+
 Implement a Class MyArrayMathImpl.java that implements the interface ArrayMath.java.  The explanation of the methods in the interface is the following:
 
 - Method isSameCollection(int[] array1, int[] array2) receives as parameters 2 arrays of integer positive values (array1 and array2) and it returns true if array1 contains the same values as array2. For instance: isSameCollection([10,1,7,10], [1, 10, 7,10]) must return true, isSameCollection([10,1,7,9], [1, 10, 7,10]) must return false, and isSameCollection([1,7,10], [1, 10, 7, 7]) must return false. This operation should execute in average O(N), where N is the number elements in the array (any of them, because if the arrays are of different size you can directly return false). 
